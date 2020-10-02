@@ -17,61 +17,75 @@
     <header>
         <div class="wrapper">
             <h1>Redesign Uniqlo's iOS App</h1>
+            <h2>UX Case Study</h2>
         </div>
     </header>
 
     <main>
-
         <!-- intro -->
-        <section>
-            <div class="wrapper">
+        <section class="intro">
+            <div class="wrapper introContainer">
                 <!-- overview -->
-                <div>
+                <div class="overview">
                     <h2>Overview</h2>
                     <p>
                         Uniqlo is a Japanese clothing retailer and manufacturer reknown for its affordable and
                         comfortable
                         product line. Ever since I came to Canada, I have been very fond of their clothings. I am
                         usually
-                        Uniqlo's in-store shopper. But since the pandemic hits, I have been avoiding all in-store visit
-                        and switched to online shopping . Couple of months ago, I tried to use Uniqlo's iOS app for the
+                        Uniqlo's in-store shopper. But since the pandemic hits, I have been avoiding all in-store
+                        visit
+                        and switched to online shopping . Couple of months ago, I tried to use Uniqlo's iOS app for
+                        the
                         first
                         time to order some activewear. As a user, I found the user interface difficult to
                         navigate
-                        and as a designer , I found many flaws. To soothe my designer soul, I wanted to dig deeper and
+                        and as a designer , I found many flaws. To soothe my designer soul, I wanted to dig deeper
+                        and
                         take
                         the opportunity to redesign the user interface.
                     </p>
-
-                    <p>The project is completely unsolicited and the goal was to identify any
+                    <p class="emphasize">
+                        The project is unsolicited and the goal was to identify any
                         usability issues and facilitate a better
                         user experience for Uniqlo's iOS app.
+                        </span>
                     </p>
                 </div>
-                <!-- role -->
-                <div>
-                    <h4>Role</h4>
-                    <p>User Research, Interaction, Visual design, Prototyping & Testing</p>
-                </div>
+                <!-- role, contributor, duration -->
+                <div class="introRight">
+                    <!-- role -->
+                    <div>
+                        <h4>Role</h4>
+                        <p>User Research, Interaction, Visual design, Prototyping & Testing</p>
+                    </div>
 
-                <!-- team -->
-                <div>
-                    <h4>Contributors</h4>
-                    <p>I single-handedly completed the project and my design was further critiqued by my husband who is
-                        working as a software quality analyst in Toronto.</p>
-                </div>
+                    <!-- Tools -->
 
-                <!-- duration -->
-                <div>
-                    <h4>Duration</h4>
-                    <p>September 15 - October 02, 2020</p>
+                    <div>
+                        <h4>Tools</h4>
+                        <p>Sketch, InVision, Facebook Messenger, Voice Recorder, Pen & Paper </p>
+                    </div>
+
+                    <!-- team -->
+                    <div>
+                        <h4>Contributors</h4>
+                        <p>I single-handedly completed the project. Thanks to my husband who occassionally critiqued my
+                            work</p>
+                    </div>
+
+                    <!-- duration -->
+                    <div>
+                        <h4>Duration</h4>
+                        <p>September 15 - October 02, 2020</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- the process -->
 
-        <section>
+        <section class="process">
             <div class="wrapper">
                 <h2>The Process</h2>
                 <p>I broke up the redesign into three phases:</p>
@@ -85,41 +99,46 @@
         <!-- user research -->
         <section>
             <div class="wrapper">
+
                 <h2>User Research</h2>
-                <h3>Guerilla Usability Testing</h3>
-                <p>I surveyed 5 people in Toronto and Montreal and asked them to perform few predefined tasks in the iOS
-                    app. Since it was a lockdown due to Covid-19 pandemic, I took the interview using facebook messenger
-                    and
-                    used it's video chat and screen share facility to record participants' actions and took notes.Some
-                    of
-                    the tasks/questions were:</p>
+                <div class="subSection">
+                    <h3>Guerilla Usability Testing</h3>
+                    <p>I conducted usability test with 5 people in Toronto and Montreal and asked them to perform few
+                        predefined tasks in the iOS
+                        app. I mainly approached my friends and families. Since it was a lockdown due to Covid-19
+                        pandemic,
+                        I took the interview using facebook messenger,
+                        used it's video chat and screen share facility to record participants' actions and took
+                        notes.Some
+                        of
+                        the tasks/questions were:</p>
 
-                <ul>
-                    <li>Browse and add a product of your choice in your cart.</li>
-                    <li>What do you want to see first as you open the app?</li>
-                    <li>Find out what's on sale?</li>
-                    <li>Find out the new arrivals.</li>
-                    <li>Find the store locations on Uniqlo.</li>
-                    <li>Navigate to wishlist</li>
-                    <li>Filter & sort the product</li>
-                    <li>Find the size chart</li>
-                    <li>Check the product </li>
-                    <li>See your order history</li>
-                    <li>Find if online order is available, what is the fee</li>
-                    <li>Change notification settings</li>
-                    <li>Check if you have a discount/coupon</li>
-                </ul>
+                    <ul>
+                        <li>What are the tasks you usually perform when you use a clothing retailer's app?</li>
+                        <li>What do you want to see first as you open the app?</li>
+                        <li>Browse and add a product of your choice in your cart.</li>
+                        <li>Find out what's on sale ,new arrivals, store location, your order history, and size chart.
+                        </li>
+                        <li>Change notification settings.</li>
+                        <li>Check if you have a discount/coupon.</li>
+                    </ul>
 
-                <p>This is what users said during the usability tests:</p>
+                    <p>This is what users said during the usability tests:</p>
 
-                <ul class="quotes">
-                    <li>Why everything is so clumpsy?</li>
-                    <li>There are so many things. I am lost!</li>
-                </ul>
+                    <ul class="quotes">
+                        <li>Why everything is so clumpsy?</li>
+                        <li>There are so many things. I am lost!</li>
+                        <li>I can't see these texts.</li>
+                        <li>Where is my account?</li>
+                    </ul>
+                </div>
 
                 <h3>Identifying the Problem</h3>
+                <p>Participants particularly faced the following difficulties:</p>
                 <ul>
-
+                    <li>Navigation through "Home" tab.</li>
+                    <li>Browsing product categories.</li>
+                    <li>Finding "Order History" and "Size Chart".</li>
                 </ul>
             </div>
         </section>
@@ -128,7 +147,16 @@
             <div class="wrapper">
                 <h2>Current Design Analysis</h2>
                 <h3>Analyzing Current App Structure</h3>
+                <p>Since most of the participants including myself had difficulty in navigation, I built
+                    its information architecture to better understand its structure.</p>
+                <div>
+                    <img src="styles/images/currentIA.png" alt="current information architecture of app">
+                </div>
                 <h3>Competitive Analysis</h3>
+                <p>I looked into the app of leading Canadian clothing retails who have good rating on app store (above
+                    4.6) and good reviews about their UI. I went through their information architecture to see how they
+                    have organized
+                    their app, and what are the features missing in current Uniqlo's app. </p>
             </div>
         </section>
 
@@ -139,39 +167,48 @@
 
                 <!-- revised IA -->
 
-                <h3>Revised Information Architecture</h3>
+                <div class="subSection">
+                    <h3>Revised Information Architecture</h3>
+                    <p>The designed the new information architecture to increase the visibility of the app’s key
+                        features
+                        and improves the overall
+                        organization and
+                        navigation throughout the app.</p>
+                    <div>
+                        <img src="styles/images/revisedIA_One.png" alt="revised information architecture of app">
+                    </div>
+                </div>
 
                 <!-- ideation and prototype -->
-                <h3>Ideation & Prototyping</h3>
-                <p>I scoped out the iOS app of leading fashion retailers in Canada which has good rating (above 4.5)
-                    in
-                    their app store. I made observations on which layouts worked best and sketched out possible
-                    solutions on
-                    paper for the main screens before committing to high fidelity designs.</p>
+                <div class="subSection">
+                    <h3>Ideation & Prototyping</h3>
+                    <p>Before committing to high fidelity designs, I sketched out possible
+                        solutions on
+                        paper for the main screens. </p>
+                </div>
+            </div>
 
-                <div class="lowFidelityPrototypeContainer">
-                    <div class="lowFidelityPrototype">
-                        <img src="styles/images/home_1.JPG">
-                    </div>
-                    <div class="lowFidelityPrototype">
-                        <img src="styles/images/home_2.JPG">
-                    </div>
-                    <div class="lowFidelityPrototype">
-                        <img src="styles/images/shop.JPG">
-                    </div>
-                    <div class="lowFidelityPrototype">
-                        <img src="styles/images/category.JPG">
-                    </div>
-                    <div class="lowFidelityPrototype">
-                        <img src="styles/images/productDetails.JPG">
-                    </div>
-                    <div class="lowFidelityPrototype">
-                        <img src="styles/images/account.JPG">
-                    </div>
-                    <div class="lowFidelityPrototype">
-                        <img src="styles/images/more.JPG">
-                    </div>
-
+            <div class="lowFidelityPrototypeContainer">
+                <div class="lowFidelityPrototype">
+                    <img src="styles/images/home_1.JPG" alt="low fidelity prototype">
+                </div>
+                <div class="lowFidelityPrototype">
+                    <img src="styles/images/home_2.JPG" alt="low fidelity prototype">
+                </div>
+                <div class="lowFidelityPrototype">
+                    <img src="styles/images/shop.JPG" alt="low fidelity prototype">
+                </div>
+                <div class="lowFidelityPrototype">
+                    <img src="styles/images/category.JPG" alt="low fidelity prototype">
+                </div>
+                <div class="lowFidelityPrototype">
+                    <img src="styles/images/productDetails.JPG" alt="low fidelity prototype">
+                </div>
+                <div class="lowFidelityPrototype">
+                    <img src="styles/images/account.JPG" alt="low fidelity prototype">
+                </div>
+                <div class="lowFidelityPrototype">
+                    <img src="styles/images/more.JPG" alt="low fidelity prototype">
                 </div>
 
             </div>
@@ -186,15 +223,15 @@
             <h2>UX Suggestions & Redesign</h2>
 
             <!-- Rearrange the tab bar -->
-            <div>
-                <h3>Rearrange the tab bar</h3>
-                <p>Currently, there is 4 icons in the tab bar i.e. "Home", "Wishlist", "Scan" and "Membership"
+            <div class="subSection">
+                <h3>1. Rearrange the Tab Bar</h3>
+                <p>Currently, there is 4 tabs in the tab bar i.e. "Home", "Wishlist", "Scan" and "Membership"
                     which I have
                     rearranged following ways for better user experience. </p>
 
                 <ul>
-                    <li>I added 2 new icons i.e. "Shop", "More";</li>
-                    <li>Users were confused with the icon name of "Membership". So, I changed it to "Profile";</li>
+                    <li>I added 2 new tabs i.e. "Shop", "More";</li>
+                    <li>Users were confused with the tab name of "Membership". So, I changed it to "Profile";</li>
                     <li>I relocated "Scan" icon from the tab bar to the top, just above the search bar for the following
                         reason:
                         <ul>
@@ -204,27 +241,40 @@
                     </li>
                 </ul>
 
-                <div>
+                <div class="redesign">
                     <img src="styles/images/rearrangeTab.png" alt="How tab bar has been rearranged">
+
                 </div>
+                <p class="redesignCaption">Redesign of Tab Bar</p>
             </div>
 
             <!-- Change Layout of "Home" -->
-            <div>
-                <h3>Change Layout of "Home"</h3>
-                <p>Currently, the homepage looks cluttered and messy. During the usability test,users seemed lost while
+            <div class="subSection">
+                <h3>2. Change Layout of "Home"</h3>
+                <p>Currently, the "Home" tab looks cluttered and messy. During the usability test,users seemed lost
+                    while
                     they were navigating through home page. So, I changed its entire layout to give it a cleaner look.
                 </p>
-                <div><img src="styles/images/homeLayout_Before.png" alt="current layout of home page"></div>
-                <div><img src="styles/images/homeRedesign.png" alt="how home page has been redesigned"></div>
+                <div class="redesign"><img src="styles/images/homeLayout_Before.png" alt="current layout of home page">
+                </div>
+                <p class="redesignCaption">Snapshots of "Home" on Different Scrolling Position-Before Redesign</p>
+                <div class="redesign homeAfter"><img src="styles/images/homeRedesign.png"
+                        alt="how home page has been redesigned">
+                    <p class="redesignCaption">Snapshots of "Home" After Redesign</p>
+                </div>
             </div>
-            <div>
-                <h3>Add "Shop" Icon</h3>
+
+            <!-- add shop tab -->
+            <div class="subSection">
+                <h3>3. Add "Shop" Tab</h3>
                 <p>In current app structure, if users want to browse products there are two options available. One, they
                     have to search the product category in search bar on the top. Two, they have to scroll down to find
-                    out the categories. In my redesign, I added a new icon named "Shop" in the tab bar so that users
-                    have
-                    quick access to the product categories.</p>
+                    out the categories. As per my analysis, including all sub-categories i.e. outwear, tops, bottoms in
+                    the "Home" tab is making the UI more cluttered. So, I added a new tab named "Shop" in the tab bar
+                    and relocated all sub-categories there so
+                    that users
+                    have easier, cleaner
+                    and quick access to the product categories.</p>
 
                 <p>Also, I made the following changes in the subcategories:</p>
                 <ul>
@@ -232,13 +282,15 @@
                     <li>Moved Sale, New Arrival to the top</li>
                     <li>Added two subcategories i.e. "Bestseller", "Clearance"</li>
                 </ul>
-                <div>
-                    <img src="styles/images/shopRedesign.png">
+                <div class="redesign">
+                    <img src="styles/images/shopRedesign.png" alt="How Shop tab have been designed">
                 </div>
+                <p class="redesignCaption">How "Shop" tab has been designed from portion of "Home" tab's content</p>
             </div>
 
-            <div>
-                <h3>From "Membership" to Profile</h3>
+            <!-- Change membership to profile -->
+            <div class="subSection">
+                <h3>4. From "Membership" to Profile</h3>
                 <ul>
                     <li>During usability test, participants were confused with the name "Membership". As per their
                         mental model, participants were looking
@@ -247,43 +299,123 @@
                         history, check if your
                         have a coupon. So, I changed the icon name to "Profile"</li>
                     <li>As per the current app structure, a user has to click the cart/ add something to the cart to get
-                        into the log in/sign up page. Otherwise, there is no direct log in/ sign up options available
-                        which is a major painpoint of using the app. So, I added "Sign In" and "Create An
-                        Account" </li>
+                        into the log in/sign up page. Otherwise, there is no direct access to log in/ sign up.
+                        So, I added "Sign In" and "Create An
+                        Account" button in "Profile"</li>
                     <li>Participants had difficulty distiguishing between "Order History" and "Purchase History" as they
-                        mentioned both of them sounds similar to them. I changed the name to "Online Orders" and
+                        mentioned both of them sounds similar to them. So, I changed the name to "Online Orders" and
                         "In-store Shopping"</li>
 
                 </ul>
 
-                <div>
+                <div class="redesign">
                     <img src="styles/images/profile.png" alt="How profile has been redesigned">
                 </div>
-
+                <p class="redesignCaption">How "Membership" tab has been changed to "Profile"</p>
             </div>
-            <div>
-                <h3>"More" Icon</h3>
+
+            <!-- add more tab -->
+            <div class="subSection">
+                <h3>5. Add "More" Tab</h3>
                 <p> I added a new icon in tab bar named "More. Whereas "Profile" icon is all about a user information,
-                    "More" icon is all about getting connected with Uniqlo.</p>
-                <div>
-                    <img src="styles/images/moreDesign.png" alt="How profile has been redesigned">
+                    "More" icon is all about Uniqlo's information and getting connected with it.As per my analysis, the
+                    current app structure falls behind in providing information about helping/ supporting users. </p>
+                <ul>
+                    <li>
+                        I noticed there is no information available about their customer care. So, I included a "Contact
+                        Us" option.</li>
+                    <li>The other information for help and support such as "FAQ" is in "Membership" tab, which was time
+                        consuming to find. So, I moved those under "More" tab so that all information source for helping
+                        users are grouped together.</li>
+                    <li>Though available in web version, there is no information about Uniqlo's social media account.For
+                        better exposure, I included "Follow Us" option.</li>
+                </ul>
+                <div class="redesign">
+                    <img src="styles/images/moreDesign.png" alt="How more has been designed">
                 </div>
+                <p class="redesignCaption">How "More" tab has been redesigned</p>
             </div>
 
-            <div>
-                <h3>Product Sub-Category and Details</h3>
+            <div class="subSection">
+                <h3>6. Product Sub-Category and Details</h3>
                 <p>I changed the layout of product sub-category and details page to make it more visually appealing and
                     easier to follow.</p>
-                <div>
+                <div class="redesign">
                     <img src="styles/images/productCategory.png" alt="How product category has been redesigned">
                 </div>
+                <p class="redesignCaption">How product sub-category has been redesigned</p>
 
-                <div>
+                <div class="redesign">
                     <img src="styles/images/productDetailsRedesign.png" alt="How product category has been redesigned">
                 </div>
+                <p class="redesignCaption">How product details has been redesigned</p>
             </div>
         </div>
     </section>
+    <!-- prototype -->
+    <section>
+        <div class="wrapper">
+            <h2>
+                Functional Prototyping
+            </h2>
+            <p>
+                I used Invision to create a functional prototype of all the screens. Check it out <a
+                    href="https://projects.invisionapp.com/prototype/ckfsnjn9z0032tl01dkzlucyi/play">here.</a>
+            </p>
+            <div class="prototype">
+                <a href="https://projects.invisionapp.com/prototype/ckfsnjn9z0032tl01dkzlucyi/play"><img
+                        src="styles/images/prototype.png" alt="glimpse of prototype"></a>
+            </div>
+        </div>
+    </section>
+    <!-- Validation -->
+
+    <section>
+        <div class="wrapper">
+            <h2>
+                Validation Testing
+            </h2>
+            <p>
+                To validate the changes I made, I tested the prototype with 3 participants (1/3 participants were same
+                who participated in first usability test). I asked the same questions from
+                my initial tests and recorded their behavior and feedback.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Validation -->
+
+    <section>
+        <div class="wrapper">
+            <h2>
+                The Results
+            </h2>
+            <p>
+                As a result of the redesign, the success rate for tasks increased to 100% for all use cases except 1
+                participants had difficulty browsing product categories in "Shop" tab. Some comments were:
+            </p>
+
+            <ul class="quotes">
+                <li>What is Airism?</li>
+                <li>Fleece should be under jacket section right?</li>
+            </ul>
+
+            <p>Though the "Shop" tab was visually pleasant, after the validation testing I felt there is still
+                opprtunity to optimize the content. So, I made a separate sub-category named "Featured Item" and
+                included "Airism",
+                "Heattech", "Fleece", "3D Knit", "UV Protection", "Special Collaboration" under this sub-category. Here
+                is the glimpse of final version of information architecture.</p>
+
+            <div class="redesign">
+                <img src="styles/images/revisedIA_final.png" alt="final revised information architecture">
+            </div>
+        </div>
+
+
+    </section>
+
+
 
 </body>
 
