@@ -3,12 +3,13 @@
 .lowFidelityPrototypeContainer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   
     margin: 0 auto;
 }
 
 .lowFidelityPrototype {
-    flex: 1 0 12%;
+    flex: 1 0 20%;
     margin: 5px;
     
 }

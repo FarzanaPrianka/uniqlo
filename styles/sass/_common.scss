@@ -10,9 +10,9 @@ header .wrapper {
     border: none;
 }
 
-
-
-    
+.overview span {
+    font-weight: bold;
+}
 
 body {
     font-family: $primary-font;
@@ -64,6 +64,11 @@ section {
 
 .emphasize {
     font-style: italic;
+}
+
+.emphasize span {
+
+    font-weight: bold;
 }
 
 
